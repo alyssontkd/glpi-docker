@@ -24,4 +24,4 @@ Abaixo estão listadas, para fins de documentação, todas as versões utilizada
 # Inicializando o GLPI neste projeto
 
 
-
+# Dicas importantes
