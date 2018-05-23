@@ -5,7 +5,14 @@ Este projeto visa disponibilizar a versão 9.2.3 do GLPI utilizando uma imagem d
 Abaixo estão listadas, para fins de documentação, todas as versões utilizadas para a execução deste projeto, contudo acredito que você não tera problemas em executar esses passos com outras versões e distribuições linux.
 
 ## Docker
-
+** Para descobrir a versão do docker, digite o comando abaixo: **
+```
+# docker --version
+```
+** O retorno do comando acima será algo como: **
+```
+Docker version 18.03.1-ce, build 9ee9f40
+```
 
 ## Docker Compose
 
