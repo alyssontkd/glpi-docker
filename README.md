@@ -116,7 +116,7 @@ docker-compose version 1.21.2, build a133471
 
 
 # Inicializando o GLPI neste projeto
-**Agora seu sistema operacional já está com o docker e docker-compose instalado, entao basta clonar este repositório ou baixar os arquivos e colocar na para '/var/www/docker' e mandar recompilar a imagem.**
+**Agora seu sistema operacional já está com o docker e docker-compose instalado, entao basta clonar este repositório ou baixar os arquivos e colocar na para '/var/www/docker'(Este é apenas o caminho sugerido. Voce pode colocar onde quiser!) e mandar recompilar a imagem.**
 __Para clonar o repositório digite:__
 ```
 $ git clone https://github.com/alyssontkd/glpi-docker.git
