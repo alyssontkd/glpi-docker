@@ -142,3 +142,10 @@ Senha de root: 12345678
 ``` 
 $ docker ps -a
 ```
+**A Saída para o comando acima será algo como:** 
+``` 
+CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                                                              NAMES
+107a862ffdca        alyssontkd/ambiente-glpi   "docker-entrypoint..."   14 hours ago        Up 14 hours         0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp, 0.0.0.0:8888->8888/tcp   dev-glpiv1.0
+659ec002ae99        mysql:5.7                  "docker-entrypoint..."   14 hours ago        Up 14 hours         0.0.0.0:3306->3306/tcp                                             database-mysql-glpi
+
+```
