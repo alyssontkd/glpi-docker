@@ -29,11 +29,23 @@ docker-compose version 1.21.2, build a133471
 ```
 # lsb_release -irc
 ```
+ou 
+```
+# lsb_release -a
+```
 **O retorno será algo como o trecho abaixo:**
 ```
 Distributor ID: Ubuntu
 Release:        18.04
 Codename:       bionic
+```
+**Caso não funcione, tente este outro comando**
+```
+# cat /etc/*-release | grep PRETTY
+```
+**O retorno será algo como o trecho abaixo:**
+```
+PRETTY_NAME="CentOS Linux 7 (Core)"
 ```
 
 ## GLPI
