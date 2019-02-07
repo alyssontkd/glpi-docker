@@ -10,10 +10,10 @@ if ! [ -d "/var/www/html/dev.glpi.com.br/vendor" ]; then
     fi
     echo "[ ****************** ] Execute download of the GLPI"
     cd /tmp
-    wget https://github.com/glpi-project/glpi/releases/download/9.2.3/glpi-9.2.3.tgz
+    wget https://github.com/glpi-project/glpi/releases/download/9.3.3/glpi-9.3.3.tgz
 
     echo "[ ****************** ] Extract GLPI Application"
-    tar -xvzf glpi-9.2.3.tgz
+    tar -xvzf glpi-9.3.3.tgz
 
     echo "[ ****************** ] Copying sample application configuration to real one"
     mv glpi dev.glpi.com.br
